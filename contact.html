@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUSAUTO</title>
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/mashinka.ico" type="image/x-icon">
+
+    <script type="text/javascript">
+  writeRandomQuote = function () {
+    var quotes = new Array();
+    quotes[0] = "«Не водите машину быстрее, чем летает Ваш ангел-хранитель.»";
+    quotes[1] = "«Нельзя относиться к автомобилю, как к человеку – автомобилю нужна любовь», — Вальтер Рёрль, немецкий автогонщик.»";
+    quotes[2] = "«Аэродинамика для тех, кто не умеет делать двигатели», — Энцо Феррари, итальянский конструктор и основатель Ferrari.»";
+    quotes[3] = "«Соревнования это и есть жизнь, а всё, что между ними, просто ожидание», — Стив Маккуин, американский актёр и автогонщик.»";
+    var rand = Math.floor(Math.random()*quotes.length);
+    document.write(quotes[rand]);
+  }
+  
+</script>
+    
+</head>
+<header class="head">
+        <img src="img/1.png" alt="logo">  
+    <ul class="menu">
+        <li>
+            <a href="index.html"><p class="menutext">Магазин</p></a>
+        </li>
+        <li>
+            <a href="info.html"><p class="menutext">О компании</p></a>
+        </li>
+        <li>
+            <a href="contact.html"><p class="menutext">Контакты</p></a>
+        </li>
+        <li>
+            <a href="com.html"><p class="menutext">Новые поступления</p></a>
+        </li>
+        
+    </ul>
+</header>
+<body>
+    <p class="text2">
+        <br>
+        Телефон: +7-932-(665)-(22)-(54)
+        <br> По все вопросам звоните по номеру.
+        
+          Цитаты известных личностей из сферы автоспорта: 
+        <script type="text/javascript">writeRandomQuote();</script>
+    </p>
+    
+    
+    <section class="map">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22566.06979517494!2d39.195318540606735!3d45.00952131245501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f05971a39523e3%3A0x217722aa9c8e31f9!2z0YPQuy4g0J_RgNC40LzQvtGA0YHQutCw0Y8sINCb0LXQvdC40L3QsCwg0JrRgNCw0YHQvdC-0LTQsNGA0YHQutC40Lkg0LrRgNCw0LksIDM1MDAzNw!5e0!3m2!1sru!2sru!4v1674068520368!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+        </div>
+    </section>
+    <section class="fotter">
+        <ul class="menu">
+            <li>
+                <a href="index.html"><p class="menutext">Магазин</p></a>
+            </li>
+            <li>
+                <a href="info.html"><p class="menutext">О компании</p></a>
+            </li>
+            <li>
+                <a href="contact.html"><p class="menutext">Контакты</p></a>
+            </li>
+            <li>
+                <a href="com.html"><p class="menutext">Новые поступления</p></a>
+            </li>
+            
+        </ul>
+        <p class="fottertext">
+            <br>
+            ООО "RUSAUTO" г.Краснодар ул.Приморская д15 стр.3 Офис 38.
+            <br>
+            Почта для связи с нами- rusauto3@mail.ru
+        </p>
+    </section>
+</body>
+</html>

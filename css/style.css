@@ -1,0 +1,143 @@
+*{
+    margin:0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+a {text-decoration: none;
+}
+.head {
+    width: 100%;
+    height: 200px;
+    background-color: #A9A9A9;
+    align-items: center;
+    overflow: hidden;
+}
+.head img {
+    display: block;
+    position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+   padding-top: 10px;
+
+}
+.menu {
+    list-style: none;
+    padding-top: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.menu li {
+    display: inline-flex;
+    padding: 0 10px 0 10px;
+}
+.menutext {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.shop {
+    width: 100%;
+    background-color: #DCDCDC;
+    justify-content: center;
+}
+.simg {
+    width: 200px;
+    height: 100px;
+}
+.fotter {
+    width: 100%;
+    background-color: #A9A9A9;
+    align-items: center;
+    clear: both;
+    position: relative;
+    margin-top: auto;
+}
+.fottertext {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+.ptext {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre;
+    text-align: center;
+    color: black;
+}
+.a1 {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+.a1 li img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.a1 li {
+    padding: 5px 5px 100px 5px;
+    margin: 5px;
+    background-color: #cecac2;
+}
+.pcost {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #008B8B;
+}
+.map {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #DCDCDC
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:  20px;
+    text-align: center;
+    width: 100%;
+
+    background-color: #DCDCDC; 
+}
+.img {
+    max-height: 450px;
+    max-width: 450px;
+    width: 90%;
+    margin: 10px 10px 10px 10px;
+}
+.text2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: pre;
+    text-align: center;
+    color: black;
+    background-color: #DCDCDC;
+}
+.text3{
+    font-size: 22px;
+}
+.text4{
+    font-size: 25px;
+    color: #008B8B;
+}
+.img1{
+    height:450px;
+   
+}
